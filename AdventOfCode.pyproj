@@ -23,7 +23,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="AdventOfCode.py" />
+    <Compile Include="Day1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day2.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Day6.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day7.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileReader.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
