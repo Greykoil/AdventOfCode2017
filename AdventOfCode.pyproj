@@ -47,6 +47,9 @@
     <Compile Include="Day8.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Day9.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="FileReader.py">
       <SubType>Code</SubType>
     </Compile>

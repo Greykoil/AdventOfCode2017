@@ -12,3 +12,14 @@ def read_file(name):
     with open(name) as fp:
         lines = fp.readlines()
     return [line.strip() for line in lines]
+
+
+#=============================================================================
+def raw_read_file(name):
+#
+#-----------------------------------------------------------------------------
+    lines = []
+    text = ""
+    with open(name) as fp:
+        text = fp.read()
+    return text
