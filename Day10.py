@@ -48,7 +48,6 @@ def knot_hash_for_string(string):
     hex = [format(item, 'x') for item in dense]
     result = ""
 
-    print("There are " + str(len(hex)))
     for value in hex:
         #Preppend leading zero as required
         if len(value) == 1:
