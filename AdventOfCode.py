@@ -13,6 +13,7 @@ from Day12 import run_day_12
 from Day13 import run_day_13
 from Day14 import run_day_14
 from Day15 import run_day_15
+from Day16 import run_day_16
 
 #=============================================================================
 def choose_day():
@@ -67,6 +68,9 @@ def choose_day():
     elif (text == "15"):
         print("Okay getting day 15")
         return run_day_15()
+    elif (text == "16"):
+        print("Okay getting day 16")
+        return run_day_16()
     else :
         print("Invalid day please pick again")
         return choose_day()
