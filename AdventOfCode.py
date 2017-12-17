@@ -14,12 +14,13 @@ from Day13 import run_day_13
 from Day14 import run_day_14
 from Day15 import run_day_15
 from Day16 import run_day_16
+from Day17 import run_day_17
 
 #=============================================================================
 def choose_day():
 #
 #-----------------------------------------------------------------------------
-    valid_days = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    valid_days = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
     print ("Please pick a day to find the solution to options are:")
     print(valid_days)
     text = input()
@@ -71,6 +72,9 @@ def choose_day():
     elif (text == "16"):
         print("Okay getting day 16")
         return run_day_16()
+    elif (text == "17"):
+        print("Okay getting day 17")
+        return run_day_17()
     else :
         print("Invalid day please pick again")
         return choose_day()
